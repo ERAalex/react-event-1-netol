@@ -1,10 +1,12 @@
 .projectList {
     column-count: 3;
-    column-width: 2vw;
-    padding-top: 4vh;
   }
   
-  .projectListCs {
+  .projectListItem {
     padding-top: 10px;
   }
   
+  .projectListItemImg {
+    width: 100%;
+    height: auto;
+  }

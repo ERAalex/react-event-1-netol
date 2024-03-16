@@ -1,16 +1,20 @@
 import React from "react";
+import "./css/projectList.css";
 
 
 export const ProjectList = (props) => {
     console.log('ProjectList')
 
-    const { selected, projects } = props;
+    const { projects } = props;
 
     return (
-        <article>
-            <h3></h3>
-
-        </article>
+        <div className="projectList">
+            {projects.map((projects, i) => (
+                <div className="projectListItem" key={i}>
+                    <img className="projectListItemImg" src={projects.img}></img>
+                </div>
+             ))}
+        </div>
     )
 
 }

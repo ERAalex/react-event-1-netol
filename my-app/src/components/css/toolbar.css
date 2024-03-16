@@ -5,8 +5,10 @@
   
   .toolbarButton {
     margin: 3px;
-    background-color: rgb(156, 165, 174);
+    background-color: rgb(245, 246, 248);
+    border: 1px solid rgb(0, 0, 0);
     color: black;
+    border-radius: 0px
   }
   
   .toolbarButton:hover {
@@ -14,10 +16,11 @@
   }
   
   .toolbarButton:active {
-    background-color: rgb(21, 86, 40);
+    background-color: rgb(112, 116, 127);
   }
   
   .selected {
-    background-color: rgb(14, 73, 133);
+    background-color: rgb(56, 56, 57);
     color: rgb(255, 255, 255);
+    border-radius: 0px
   }
