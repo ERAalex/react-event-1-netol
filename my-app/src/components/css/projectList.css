@@ -1,0 +1,10 @@
+.projectList {
+    column-count: 3;
+    column-width: 2vw;
+    padding-top: 4vh;
+  }
+  
+  .projectListCs {
+    padding-top: 10px;
+  }
+  
